@@ -1,0 +1,32 @@
+{
+  "name": "muonjs",
+  "version": "0.0.1",
+  "author": "neila",
+  "scripts": {
+    "start": "node app.js 1>access.log 2>error.log &",
+    "stop": "kill -9 `cat .muon`",
+    "reload": "npm stop && npm start"
+  },
+  "main": "./module.js",
+  "dependencies": {
+    "muon": "*",
+    "mysql": "2.0.0-alpha9"
+  },
+  "devDependencies": {
+    "grunt-git": "~0.2.6",
+    "grunt-mocha-phantomjs": "~0.4.3",
+    "migrate-orm2": "^1.2.6",
+    "async": "*",
+    "q": "*",
+    "underscore": "*",
+    "mocha": "*",
+    "supertest": "*",
+    "superagent": "*",
+    "chai": "*",
+    "chai-spies": "*",
+    "node-mocks-http": "*",
+    "mocha-as-promised": "~1.4.1",
+    "repl.history": "*",
+    "expect": "^0.1.1"
+  }
+}

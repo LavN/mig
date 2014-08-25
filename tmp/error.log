@@ -1,0 +1,11 @@
+TypeError: Object #<Object> has no method 'compile_client'
+    at Object.handle (/home/neila/Aptana/muon/lib/app.js:64:16)
+    at next (/home/neila/Aptana/muon/node_modules/express/node_modules/connect/lib/proto.js:199:15)
+    at next (/home/neila/Aptana/muon/node_modules/express/node_modules/connect/lib/proto.js:174:78)
+    at /home/neila/Aptana/muon/server/server.js:35:35
+    at _fulfilled (/home/neila/Aptana/muon/node_modules/q/q.js:798:54)
+    at Promise.then.self.promiseDispatch.done (/home/neila/Aptana/muon/node_modules/q/q.js:827:30)
+    at Promise.promise.promiseDispatch (/home/neila/Aptana/muon/node_modules/q/q.js:760:13)
+    at promise.promiseDispatch (/home/neila/Aptana/muon/node_modules/q/q.js:526:49)
+    at flush (/home/neila/Aptana/muon/node_modules/q/q.js:108:17)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)

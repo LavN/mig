@@ -1,0 +1,46 @@
+#carusel_container
+#content_container
+	.container
+		.row
+			.span12
+				p.header1 Учебно-методические материалы
+		.row
+			.span12
+				p.header2 Дневная форма обучения
+		.row
+			.span4
+				#engineer.mod-box
+					a(data-route!="/engineer")
+						.inner-mod-box
+							p.text-box Специалитет
+			.span4
+				#bachelor.mod-box
+					a(data-route!="/bachelor")
+						.inner-mod-box
+							p.text-box Бакалавриат
+			.span4
+				#master.mod-box
+					a(data-route!="/master")
+						.inner-mod-box
+							p.text-box Магистратура
+		
+		.row(hidden)
+			.span12
+				p.header2 Вечерняя форма обучения
+		.row(hidden)
+			.span4
+				#engineer.mod-box
+					a(data-route!="/engineer")
+						.inner-mod-box
+							p.text-box Специалитет
+			.span4
+				#bachelor.mod-box
+					a(data-route!="/bachelor")
+						.inner-mod-box
+							p.text-box Бакалавриат
+			.span4
+				#master.mod-box
+					a(data-route!="/master")
+						.inner-mod-box
+							p.text-box Магистратура
+	

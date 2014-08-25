@@ -1,0 +1,17 @@
+{
+  "host": "0.0.0.0",
+  "port": "8000",
+  "lang": "ru",
+  "serverMode": "migration",
+  "protocol": "http",
+  "db" : {
+  	"default": {
+  	  "host": "127.0.0.1",
+  	  "type": "mysql",
+	  "name": "muonjs",
+	  "port": "3306",
+	  "user": "root",
+	  "password": "b143ac885d"
+  	}
+  }
+}

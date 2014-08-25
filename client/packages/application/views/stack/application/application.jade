@@ -1,0 +1,40 @@
+#top
+	.container
+		.row
+			.span3
+				a#user_name.login.admin(hidden) 
+				a#login_link.login(data-route="/login") Войти
+				a#logout_link.login.admin(hidden) Выйти
+			.span9
+				a#top_Spbgetu(href="http://eltech.ru",target="_blank") Санкт-Петербургский Государственный Электротехнический Университет
+#header
+	.container
+		.row
+			.span12
+				a(data-route="")
+					#logo
+						img(src="/img/logo-TOR.png")
+				#header_tor Кафедра Теоретических Основ Радиотехники
+				#slogan	Сохраняя традиции, стремиться к совершенству
+#navigator
+	.container
+		.row
+			.span12
+				a(data-route="")
+					#home.nav_tab Главная
+				a(data-route="/timetable")
+					#timetable.nav_tab Расписание
+				a(data-route="/olymp")
+					#olymp.nav_tab Олимпиада
+				a(data-route="/editor")
+					#editor.nav_tab EdiTor
+				a.admin(data-route="/cabinet")
+					#cabinet.nav_tab Мой кабинет
+#target
+#bottom_shadow
+#footer
+	.container
+		.row
+			.span1.offset9#rights
+				span СПбГЭТУ&nbsp
+				= (new Date()).getFullYear() +"."
