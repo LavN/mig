@@ -15,16 +15,16 @@ module.exports={
 			// required: false,
 			// defaultValue:">xcxc"
 		// },
-		"sgroup":{
-			type: "text",
-			required: false,
-			defaultValue:">xcxc"
-		},
-		"course":{
-			type: "text",
-			required: false,
-			defaultValue:">f"
-		},
+		// "sgroup":{
+			// type: "text",
+			// required: false,
+			// defaultValue:">xcxc"
+		// },
+		// "course":{
+			// type: "text",
+			// required: false,
+			// defaultValue:">f"
+		// },
 		// "semestr":{
 			// type: "text",
 			// required: false,
@@ -44,6 +44,12 @@ module.exports={
 			// type: "object",
             // required: false
         // },
+    },
+    hasOne:{
+        "one":"lolo"
+    },
+    hasMany:{
+        "many":"lolo"
     }
 			// defaultValue:{
 				// news:{

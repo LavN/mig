@@ -15,5 +15,11 @@ module.exports={
             // required: false,
             // defaultValue:"value3"
         // },
+    },
+    hasOne:{
+        "one": "subject"
+    },
+    hasMany:{
+        "many": "lolo"
     }
 };

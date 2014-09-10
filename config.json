@@ -12,6 +12,14 @@
 	  "port": "3306",
 	  "user": "root",
 	  "password": "b143ac885d"
+  	},
+  	"test": {
+  	  "host": "127.0.0.1",
+  	  "type": "mysql",
+	  "name": "testjs",
+	  "port": "3306",
+	  "user": "root",
+	  "password": "b143ac885d"
   	}
   }
 }
